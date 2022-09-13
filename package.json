@@ -4,15 +4,16 @@
   "description": "let's scrap jobs",
   "main": "linkdin.js",
   "scripts": {
+    "start": "node linkdin.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Satyam Singh",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.12",
     "fetch": "^1.1.0",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.19",
     "readline-sync": "^1.4.10",
-    "selenium-webdriver": "^4.0.0-alpha.5"
+    "selenium-webdriver": "^4.4.0"
   }
 }
