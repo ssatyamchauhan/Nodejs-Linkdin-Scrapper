@@ -1,13 +1,14 @@
 {
-  "name": "scraping",
+  "name": "linkedin-scrapper",
   "version": "1.0.0",
-  "description": "let's scrap jobs",
-  "main": "linkdin.js",
+  "description": "let's scrap linkedin jobs",
+  "main": "index.js",
   "scripts": {
-    "start": "node linkdin.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Satyam Singh",
+  "email": "officialsatyam1010@gmail.com",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
